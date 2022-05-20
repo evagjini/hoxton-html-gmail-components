@@ -12,13 +12,22 @@
 .search {
     height: 100%;
     width: 100%;
+    background-color: beige;
 }
 
 .header {
     display: grid;
     grid-template-columns: 100px auto 150px;
 }
-
+.Settings{
+  background-color:beige;"
+}
+.icon{
+    display:flex;
+    width: 20px;
+    height: 20px;
+    
+}
 
 .content {
     display: grid;
@@ -45,4 +54,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
+    background-color:beige;
+    width: "100%"
+}
+.Shortcuts {
+background-color: pink; 
+
 }
